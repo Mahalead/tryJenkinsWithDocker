@@ -1,7 +1,7 @@
 pipeline {
     agent {
         node {
-            label "docker-agent-jdk17"
+            label "tomatoesareevil/trial-and-error:python"
         }
     }
     triggers {
