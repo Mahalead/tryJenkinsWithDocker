@@ -29,6 +29,7 @@ pipeline {
                 echo "Delivering"
                 sh '''
                 echo "doing delivery stuff..."
+                sleep 50
                 '''
             }
         }
