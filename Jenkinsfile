@@ -13,7 +13,8 @@ pipeline {
                 echo "Building"
                 sh '''
                 cd myApp
-                pip3 install -r requirements.txt --break-system-packages
+                apt install python3-fire
+                #pip3 install -r requirements.txt --break-system-packages
                 '''
             }
         }
